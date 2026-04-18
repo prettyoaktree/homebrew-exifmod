@@ -1,8 +1,8 @@
 # frozen_string_literal: true
 
 cask "exifmod" do
-  version "1.5.0"
-  sha256 "6807ac31e3b6db779b590fa03d0ae4f4efa216cd6bf2f515702a722c6e91cef7"
+  version "1.5.1"
+  sha256 "d164a250cb97a035b91e8af8bda6852f71ef2b7f519c0b45b90db62c0456c099"
   auto_updates true
   url "https://github.com/prettyoaktree/exifmod-electron/releases/download/v#{version}/EXIFmod-#{version}.dmg"
   name "EXIFmod"
