@@ -1,13 +1,13 @@
 # frozen_string_literal: true
 
 cask "exifmod" do
-  version "1.7.3"
-  sha256 "143bc2554732d88cae2cb7e6d35097e4da5a5ad8b94de18c626942cbe0d6bfab"
+  version "1.7.5"
+  sha256 "b078176d12520d8860265426b6060ee4fd437811d5d55f5da4bd89723e581e37"
   auto_updates true
-  url "https://github.com/prettyoaktree/exifmod-electron/releases/download/v#{version}/EXIFmod-#{version}.dmg"
+  url "https://github.com/prettyoaktree/exifmod/releases/download/v#{version}/EXIFmod-#{version}.dmg"
   name "EXIFmod"
   desc "EXIF metadata editor with presets"
-  homepage "https://github.com/prettyoaktree/exifmod-electron"
+  homepage "https://github.com/prettyoaktree/exifmod"
 
   depends_on formula: "exiftool"
 
